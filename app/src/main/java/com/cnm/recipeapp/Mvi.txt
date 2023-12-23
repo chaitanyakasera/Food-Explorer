@@ -1,0 +1,35 @@
+// Thanks to YoursSohail
+// See full video at https://www.youtube.com/watch?v=xZ_A6kYfMEg&t=142se
+MVI Pattern
+==============
+
+Model : Represent the data and logic
+View : Displays UI Components
+Intent : Captures user actions sent to View Model
+
+Flow ->
+======
+Intent -> View Model -> Model update -> State Emission -> View Update
+
+Advantage of MVI over MVVM :
+===========================
+Unidirectional flow : Easier data control in UI
+Predictable state: Clear UI Behavior based on ViewModel responses.
+Explicit User Actions: Intent Clarity for  UI Update
+Testability Simple unit testing of flow components
+
+When to Use MVI
+=================
+
+Complex UI Logic: Structured handlin g of intricate UI Interactions
+Predictable UI State Clear UI state management from user actions.
+Testability : Easy ZIsolation for UI Components and logic
+
+Disadvantages of MVI
+==============
+
+Learning Curve: Steeper learning due to strict flow and new concepts
+Boilerplate Code: some boilerplate needed like other architecture patterns
+Overhead:
+
+
